@@ -1,0 +1,75 @@
+body{
+  background: linear-gradient(to bottom right, #F60909, #DA9E25, #4BA246);
+}
+
+footer{ 
+background:#EFC5C5;
+color:#ED1805;
+font-size:10px;
+}
+
+img{ 
+border-style:groove;
+border-color:#550909;
+border-radius:30px;
+border-width:10px;
+}
+
+h1{ 
+font-family:Lucida Handwriting;
+}
+
+h3{ 
+font-family:Segoe Print;
+}
+
+p{ 
+background:#DDD7C3;
+font-size:20px;
+color:black;
+font-family:Courier New;
+width:80%;
+border-style:ridge;
+border-color:pink;
+border-width:15px;
+}
+
+.ul-a{
+  border-style:double;
+  border-color:EA1C1C;
+  background:black;
+  color:white;
+  font-size:20px;
+  padding:20px;
+  border-radius:15px;
+  background-image: url('../imagenes/fondo.PNG'); /* Añade aquí la URL de tu imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el botón */
+  background-position: center; /* Centra la imagen en el botón */
+  }
+
+div{
+
+ float: right;
+
+}
+
+.ul-a:hover{
+background-color:white;
+color:black;
+transition:background ease-in .3s;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: linear-gradient(to bottom right, #F60909, #DA9E25, #4BA246);
+  transition: height 0.3s ease, padding 0.3s ease;
+  height: 80px; /* Altura inicial grande */
+}
+
+
+
